@@ -13,7 +13,7 @@
             @include('error_card_list')
             <div class="card-text">
               <form method="POST" action="{{ route('articles.store') }}">
-                @include('articles.form')>
+                @include('articles.form')
                 <button type="submit" class="btn blue-gradient btn-block">投稿する</button>
               </form>
             </div>
