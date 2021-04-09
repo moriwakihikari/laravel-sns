@@ -34,7 +34,7 @@
     },
     data() {
       return {
-        isLikeBy: this.initialIsLikedBy,
+        isLikedBy: this.initialIsLikedBy,
         countLikes: this.initialCountLikes,
         gotToLike: false,
       }
